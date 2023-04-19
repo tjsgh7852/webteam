@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>welanimalppy</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <script
+      src="https://kit.fontawesome.com/6abf29dde4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <h1>welanimalppy</h1>
+          <p>
+            우리는 동물이 전부가 아닐지 몰라도, 동물은 우리가 전부입니다.<br />
+            모든 동물이 행복해질 때까지 WELANIMALPPY가 함께하겠습니다.
+          </p>
+          <nav>
+            <ul>
+              <li>
+                <a href="./environment/index.html" class="fa fa-globe"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="./poach/index.html" class="fa-sharp fa-solid fa-person-rifle"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="./companion/index.html" class="fa fa-dove"
+                  ><span class="label">Dribbble</span></a
+                >
+              </li>
+              <li>
+                <a href="./release/index.html" class="fa fa-light fa-paw"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+              <li>
+                <a href="./companion/team.html" class="fa fa-user"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Footer -->
+        <footer id="footer"></footer>
+      </div>
+    </div>
+    <script>
+      window.onload = function () {
+        document.body.classList.remove('is-preload')
+      }
+      window.ontouchmove = function () {
+        return false
+      }
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0
+      }
+    </script>
+  </body>
+</html>
